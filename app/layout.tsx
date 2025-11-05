@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-
+// If you want to use the Inter font, add this to your globals.css or include a <link> in the <head> section.
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
