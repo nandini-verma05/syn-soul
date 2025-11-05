@@ -28,7 +28,7 @@ const HeroSection: React.FC = () => {
 
   return (
     <section className="relative min-h-screen w-full bg-black overflow-hidden">
-      <div className="absolute inset-0">
+      <div className="absolute inset-0 w-full h-full overflow-hidden flex items-center justify-center">
         <video
           ref={videoRef}
           autoPlay
@@ -42,7 +42,7 @@ const HeroSection: React.FC = () => {
             loaded ? "opacity-40" : "opacity-0"
           }`}
         >
-          <source src="/herosection.mp4" type="video/mp4" />
+          <source src="/hero.mp4" type="video/mp4" />
           {/* fallback text */}
           Your browser does not support the video tag.
         </video>
